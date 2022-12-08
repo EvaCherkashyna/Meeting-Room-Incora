@@ -9,9 +9,8 @@
 #### Node version `v14.18.1`
 
 1. Clone the repo:
-
 ```sh
- git clone https://github.com/Kharko7/Meeting-Room.git
+ git clone https://github.com/EvaCherkashyna/Meeting-Room-Incora.git
 ```
 
 2. Install NPM packages:
