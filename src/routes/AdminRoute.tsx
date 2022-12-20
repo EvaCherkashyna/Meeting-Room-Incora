@@ -13,5 +13,6 @@ export const AdminRoute = () => {
     const access = useAuth();
     const role = useRole();
 
-    return access&&role==='admin' ? <Outlet/> : <Navigate to={'/rooms'} state={{ replace: true }}/>;
+    return <Navigate to={'/rooms'} state={{ replace: true }}/>;
 }
+// access&&role==='admin' ? <Outlet/> :

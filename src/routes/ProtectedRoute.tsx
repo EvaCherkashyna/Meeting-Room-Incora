@@ -4,5 +4,6 @@ import {Navigate, Outlet} from "react-router-dom";
 
 export const ProtectedRoute = () => {
     const access = useAuth();
-    return access? <Outlet /> : <Navigate to={'/not-found'} state={{ replace: true }}/>;
+    return <Navigate to={'/not-found'} state={{ replace: true }}/>;
 }
+// access? <Outlet /> : 
