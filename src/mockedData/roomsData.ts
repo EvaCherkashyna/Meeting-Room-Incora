@@ -21,7 +21,6 @@ export interface InitialStateRooms {
   statusUpdatedCounter: number;
   location: string;
 }
-
 const Rooms = [
   {
     roomId: 1,
