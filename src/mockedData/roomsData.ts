@@ -21,7 +21,7 @@ export interface InitialStateRooms {
   statusUpdatedCounter: number;
   location: string;
 }
-const Rooms = [
+const Rooms: Array<Rooms> = [
   {
     roomId: 1,
     name: "Silver room",
@@ -130,9 +130,7 @@ const Rooms = [
     floor: 2,
     capacity: 12,
     office_FK: 1,
-    devices: [
-      { deviceId: 1, name: "screen" },
-    ],
+    devices: [{ deviceId: 1, name: "screen" }],
   },
   {
     roomId: 10,
@@ -176,9 +174,7 @@ const Rooms = [
     floor: 2,
     capacity: 12,
     office_FK: 1,
-    devices: [
-      { deviceId: 1, name: "screen" },
-    ],
+    devices: [{ deviceId: 1, name: "screen" }],
   },
   {
     roomId: 14,
@@ -265,7 +261,6 @@ const Rooms = [
       { deviceId: 2, name: "board" },
       { deviceId: 3, name: "conditioner" },
       { deviceId: 4, name: "projector" },
-    
     ],
   },
   {
@@ -279,7 +274,6 @@ const Rooms = [
       { deviceId: 2, name: "board" },
       { deviceId: 3, name: "conditioner" },
       { deviceId: 4, name: "projector" },
-
     ],
   },
   {
